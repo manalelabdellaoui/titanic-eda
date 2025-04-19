@@ -17,7 +17,10 @@ The data sets consist of an ID column, a response variable and various features.
 - `Cabin`: cabin number;
 - `Embarked`: port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
-Some columns were added during the project:
+In the folder [nationality](https://github.com/manalelabdellaoui/titanic_eda/tree/main/nationality), you'll find the nationalities of the passengers predicted using their names. These predictions were done by [Warren Elder](https://www.kaggle.com/warrenelder) who shared his findings [here](https://www.kaggle.com/datasets/warrenelder/titanic-passenger-nationalities/data). We used these predictions to create another column for our dataset:
+- `Nationality`: nationality predicted using names.
+
+Some other columns were added during the project:
 - ...
 
 ## Findings
