@@ -21,14 +21,14 @@ In the folder [nationality](https://github.com/manalelabdellaoui/titanic_eda/tre
 - `Nationality`: nationality predicted using passengers' names.
 
 ## Findings
-- 👶 **Age**: survivors were slightly older on average, though infants had a higher survival rate.
-- 🚻 **Sex**: a strong predictor. Most women survived, while most men did not.
-- 🎫 **Ticket class & fare**: higher-class passengers and those with more expensive tickets had better survival odds. Fare was adjusted to account for shared tickets.
-- 👨‍👩‍👧 **Relatives & companions**: traveling with 1–2 family members or companions improved survival odds. Large groups had lower survival rates. A new `Solo` feature was created.
+- 👶 **Age**: Survivors were slightly older on average, though infants had a higher survival rate.
+- 🚻 **Sex**: A strong predictor. Most women survived, while most men did not.
+- 🎫 **Ticket Class & Fare**: Higher-class passengers and those with more expensive tickets had better survival odds. Fare was adjusted to account for shared tickets.
+- 👨‍👩‍👧 **Relatives & Companions**: Traveling with 1–2 family members or companions improved survival odds. Large groups had lower survival rates. A new `Solo` feature was created.
 - 🎩 **Titles**: Common titles (Mr., Miss, Mrs., Master) aligned closely with sex and age, offering no additional predictive power beyond those variables.
-- ⚓ **Port of embarkation**: passengers from Cherbourg had the highest survival rate, likely due to a higher proportion of 1st class and female passengers.
-- 🛏️ **Deck information**: passengers with a known cabin deck had significantly higher survival rates. A new binary feature `DeckKnown` was created.
-- 🌍 **Nationality**: apparent differences in survival across ethnic backgrounds were largely explainable by sex and class distribution. The feature was dropped due to unreliability.
+- ⚓ **Port of Embarkation**: Passengers from Cherbourg had the highest survival rate, likely due to a higher proportion of 1st class and female passengers.
+- 🛏️ **Deck Information**: Passengers with a known cabin deck had significantly higher survival rates. A new binary feature `DeckKnown` was created.
+- 🌍 **Nationality**: Apparent differences in survival across ethnic backgrounds were largely explainable by sex and class distribution. The feature was dropped due to unreliability.
 
 ## Feature Selection
 
