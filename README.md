@@ -41,7 +41,7 @@ After analysis, several features were dropped due to redundancy, unreliability, 
 - `Embarked`: port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton);
 - `Missing_Age`: 1 if age is known, 0 otherwise; 
 - `SharedTicket`: 1 if ticket is shared with other passengers, 0 otherwise; 
-- `TicketGroupSize`: number of passengers sharing passenger's ticket; 
+- `TicketGroupSize`: number of passengers sharing ticket; 
 - `IndividualFare`: individual passenger fare;
 - `Solo`: 1 if traveling without a companion, 0 otherwise; 
 - `DeckKnown`: 1 if deck of the cabin is known, 0 otherwise.
