@@ -3,6 +3,8 @@
 ## Introduction
 There were 2224 passengers and crew members on the Titanic that sank in 1912. Of those on board, 1502 survived. In this project we are going to use data provided by [Kaggle](https://www.kaggle.com/competitions/titanic) to see which demographics were more likely to survive the crash. There are two parts to this projects. In the [first part](https://github.com/manalelabdellaoui/titanic_eda/blob/main/preprocessing.ipynb), the dataset was cleaned up and prepared for further analysis. In the [second part](https://github.com/manalelabdellaoui/titanic_eda/blob/main/exploratory_data_analysis.ipynb), we took a deeper dive into the data and performed some explantory analysis.
 
+There is also a [part 3](https://github.com/manalelabdellaoui/titanic-ml) where survival is predicted using statistical modeling. This part has its own dedicated repository.
+
 ## Original dataset
 The data sets consist of an ID column, a response variable and various features. This is the information provided by the source:
 - `PassengerId`: unique ID number for each passenger;
