@@ -1,9 +1,9 @@
 # Exploring Factors Influencing Survival on the Titanic Using Python
 
 ## Introduction
-There were 2224 passengers and crew members on the Titanic that sank in 1912. Of those on board, 1502 survived. In this project we are going to use data provided by [Kaggle](https://www.kaggle.com/competitions/titanic) to see which demographics were more likely to survive the crash. There are two parts to this projects. In the [first part](https://github.com/manalelabdellaoui/titanic_eda/blob/main/preprocessing.ipynb), the dataset was cleaned up and prepared for further analysis. In the [second part](https://github.com/manalelabdellaoui/titanic_eda/blob/main/exploratory_data_analysis.ipynb), we took a deeper dive into the data and performed some explantory analysis.
+There were 2224 passengers and crew members on the Titanic that sank in 1912. Of those on board, 1502 survived. In this project we are going to use data provided by [Kaggle](https://www.kaggle.com/competitions/titanic) to see which demographics were more likely to survive the crash. There are two parts to this projects. In the [first part](https://github.com/mea45/titanic_eda/blob/main/preprocessing.ipynb), the dataset was cleaned up and prepared for further analysis. In the [second part](https://github.com/mea45/titanic_eda/blob/main/exploratory_data_analysis.ipynb), we took a deeper dive into the data and performed some explantory analysis.
 
-There is also a [part 3](https://github.com/manalelabdellaoui/titanic-ml) where survival is predicted using statistical modeling. This part has its own dedicated repository.
+There is also a [part 3](https://github.com/mea45/titanic-ml) where survival is predicted using statistical modeling. This part has its own dedicated repository.
 
 ## Original dataset
 The data sets consist of an ID column, a response variable and various features. This is the information provided by the source:
@@ -19,7 +19,7 @@ The data sets consist of an ID column, a response variable and various features.
 - `Cabin`: cabin number;
 - `Embarked`: port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
-In the folder [nationality](https://github.com/manalelabdellaoui/titanic_eda/tree/main/nationality), you'll find the nationalities of the passengers predicted using their names. These predictions were done by [Warren Elder](https://www.kaggle.com/warrenelder) who shared his findings [here](https://www.kaggle.com/datasets/warrenelder/titanic-passenger-nationalities/data). We used these predictions to create another column for our dataset:
+In the folder [nationality](https://github.com/mea45/titanic_eda/tree/main/nationality), you'll find the nationalities of the passengers predicted using their names. These predictions were done by [Warren Elder](https://www.kaggle.com/warrenelder) who shared his findings [here](https://www.kaggle.com/datasets/warrenelder/titanic-passenger-nationalities/data). We used these predictions to create another column for our dataset:
 - `Nationality`: nationality predicted using passengers' names.
 
 ## Findings
